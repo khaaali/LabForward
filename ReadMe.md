@@ -1,3 +1,4 @@
+```markdown
 implements comand line interface for handling user inputs
 
 Design: TerminalHandler is root for application, it starts/stops the server. start/stop the client passive/active devices.  
@@ -33,3 +34,4 @@ Inside termnial user can enter numpad keys to do th following:
 Start application:
 
 node ./TerminalHandler.js
+```
