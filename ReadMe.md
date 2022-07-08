@@ -11,7 +11,9 @@ data: 0.7347096025707847,
 type: 'Passive'
 }
 
-Active device: to request data from active device UUID of the device needs to be sent on the termnial to receive data 
+Active device: to request data from active device UUID of the device needs to be 
+sent on the termnial to receive data 
+
 eg:
 aae8b8de-aca9-4ed1-9601-0550d1165ccb // uuid sent on termnial
 
@@ -24,7 +26,8 @@ data: 0.41402337447306614,
 type: 'Active'
 }
 
-server and clients are served on worker threads and communication between threads is maintained by parentPort.
+server and clients are served on worker threads and communication between threads 
+is maintained by parentPort.
 
 Inside termnial user can enter numpad keys to do th following:
 1 -> start TCP server on a worker thread
